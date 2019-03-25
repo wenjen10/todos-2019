@@ -14,7 +14,7 @@ namespace Todos2019.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value1", "value2", "lunch time" };
         }
 
         // GET api/values/5
