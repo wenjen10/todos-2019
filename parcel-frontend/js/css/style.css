@@ -2,4 +2,18 @@
     background-color: rosybrown;
     margin: 2rem auto;
     width: 100px;
+
+}
+#nav_header{
+    display: flex;
+    margin-right: 1rem;
+}
+
+.nav_header_buttons{
+    display: flex;
+}
+
+.nav_header_buttons li{
+    list-style-type: none;
+
 }
