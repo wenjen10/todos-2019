@@ -1,5 +1,5 @@
 export default function Values(values) {
-    console.log(values)
+    //console.log(values)
     return `
         <ul>
         ${values.map(value => {

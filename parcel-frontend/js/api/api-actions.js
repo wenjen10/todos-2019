@@ -1,5 +1,5 @@
 function getRequest (location, calback) {
-    fetch('https://swapi.co/api/people/22')
+    fetch("https://localhost:44326/api/todos")
         .then(response => response.json())
         .then(jsonData => console.log (jsonData))
         .catch(err => console.log(err));

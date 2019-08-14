@@ -1,7 +1,11 @@
-//const header = document.querySelector(header);
-//header.innerHTML = `<navclass> `
+import header from './components/header';
+import footer from './components/footer';
+import home from './components/home';
+
+const header = document.querySelector(header);
+header.innerHTML = `<navclass> `
 import apiActions from './api/api-actions';
-import Values from './components/value';
+import Values from './components/values';
 import './css/style.css';
 
 pageBuild()
@@ -31,6 +35,6 @@ function navValues() {
     valueButton.addEventListener('click', function(){
         apiActions.getRequest ('https://localhost:44326/api/values', values => {
             document.querySelector('#app').innerHTML = Values(values);
+        })
     })
-})
 }

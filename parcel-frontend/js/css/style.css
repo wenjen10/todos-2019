@@ -1,19 +1,37 @@
 #container{
     background-color: rosybrown;
     margin: 2rem auto;
-    width: 100px;
+    width: 1000px;
 
 }
 #nav_header{
     display: flex;
-    margin-right: 1rem;
+    justify-content: space-between;
 }
 
 .nav_header_buttons{
     display: flex;
+    margin-right: 1rem;
 }
 
 .nav_header_buttons li{
     list-style-type: none;
+    margin-left: 2rem
 
 }
+
+/*<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+</style>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
