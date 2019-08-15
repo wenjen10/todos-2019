@@ -1,21 +1,21 @@
-import header from './components/header';
-import footer from './components/footer';
-import home from './components/home';
+import Header from './components/header';
+import Footer from './components/footer';
+import Home from './components/home';
 
-const header = document.querySelector(header);
-header.innerHTML = `<navclass> `
+//const header = document.querySelector(header);
+//header.innerHTML = `<navclass> `
 import apiActions from './api/api-actions';
-import Values from './components/values';
+import Values from './components/value';
 import './css/style.css';
 
 pageBuild()
 
 function pageBuild() {
-    header();
+    //header();
     footer();
     navHome();
     navValues();
-    navToDos();
+    //navToDos();
 }
 
 function footer() {
