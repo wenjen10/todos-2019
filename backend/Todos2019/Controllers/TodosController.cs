@@ -19,16 +19,12 @@ namespace Todos2019.Controllers
         };
 
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<string>> Get() 
         {
             return all;
         }
 
-        [HttpPost]
-        public ActionResult<bool> Post([FromBody] string todo)
-        {
-            all.Add(todo);
-            return true;
-        }
+        
+        
     }
 }
