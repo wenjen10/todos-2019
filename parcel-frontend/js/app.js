@@ -18,6 +18,11 @@ function pageBuild() {
     //navToDos();
 }
 
+function header () {
+    const header = document.querySelector('#header');
+    header.innerHTML = header();
+}
+
 function footer() {
     const footer = document.querySelector('#footer');
     footer.innerHTML = Footer();
