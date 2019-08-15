@@ -23,8 +23,11 @@ namespace Todos2019.Controllers
         {
             return all;
         }
-
-        
+        [HttpPost]
+        public ActionResult<IEnumerable<string>> Post([FromBody] string todo)
+        {
+        all.Add(todo);
+            return all;    
         
     }
 }

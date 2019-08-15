@@ -5,7 +5,7 @@ export default function Header() {
         <ul class= 'nav_header_buttons'>
             <li class='nav_home'>Home</li>
             <li class='nav_values'>Values</li>
-            <li class='nav_todos'>ToDos,</li>
+            <li class='nav_toDos'>ToDos,</li>
     </ul>
 </nav>
 `
