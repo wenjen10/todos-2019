@@ -38,7 +38,9 @@ function navHome() {
 function navValues() {
     const valueButton = document.querySelector('.nav_values');
     valueButton.addEventListener('click', function(){
-        apiActions.getRequest ('https://localhost:44326/api/values', values => {
+        apiActions.getRequest('https://localhost:44326/api/values', values => {
+            console.log("getRequest returns value")    
+        console.log(values)
             document.querySelector('#app').innerHTML = Values(values);
         })
     })

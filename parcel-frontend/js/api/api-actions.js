@@ -1,7 +1,7 @@
-function getRequest (location, calback) {
+function getRequest (location, callback) {
     fetch("https://localhost:44326/api/todos")
         .then(response => response.json())
-        .then(jsonData => console.log (jsonData))
+        .then(jsonData => callback(jsonData))
         .catch(err => console.log(err))
 }
 function postRequest(location, requestBody, callback){
@@ -13,7 +13,7 @@ function postRequest(location, requestBody, callback){
         }
     })
     .then(response => response.json())
-    .then(jsonData => console.log (jsonData))
+    .then(jsonData => callback(jsonData))
     .catch(err => console.log(err))
 }
 
