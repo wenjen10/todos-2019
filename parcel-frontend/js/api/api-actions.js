@@ -18,6 +18,6 @@ function postRequest(location, requestBody, callback){
 }
 
 export default {
-    getRequest
+    getRequest,
     postRequest
 }

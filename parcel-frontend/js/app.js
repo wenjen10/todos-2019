@@ -2,8 +2,8 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Home from './components/home';
 
-const header = document.querySelector('#header');
-header.innerHTML = `<navclass> `
+//const header = document.querySelector('#header');
+//header.innerHTML = `<navclass> `
 import apiActions from './api/api-actions';
 import Values from './components/value';
 import './css/style.css';
@@ -18,7 +18,7 @@ function pageBuild() {
     //navToDos();
 }
 
-function header () {
+function header() {
     const header = document.querySelector('#header');
     header.innerHTML = Header();
 }
