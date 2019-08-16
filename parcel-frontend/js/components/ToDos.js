@@ -16,4 +16,4 @@ export default function ToDos(toDos) {
                 </section>
                 `
 
-    
+        }

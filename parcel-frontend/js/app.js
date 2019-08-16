@@ -3,7 +3,7 @@ import Footer from './components/footer';
 import Home from './components/home';
 
 //const header = document.querySelector('#header');
-//header.innerHTML = `<navclass> `
+header.innerHTML = `<navclass> `
 import apiActions from './api/api-actions';
 import Values from './components/value';
 import './css/style.css';
